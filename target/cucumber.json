@@ -1,0 +1,940 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-08T15:23:53.121Z",
+        "line": 4,
+        "name": "Validate calculator webpage",
+        "description": "",
+        "id": "calculator-functionality-check;validate-calculator-webpage",
+        "after": [
+          {
+            "result": {
+              "duration": 1993700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 557541100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9972200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i should be able to see page title as \"Evil Calculator\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Evil Calculator\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeePageTitleAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckUrl"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:23:53.758Z",
+        "line": 15,
+        "name": "Validate AC and equal to button colors",
+        "description": "",
+        "id": "calculator-functionality-check;validate-ac-and-equal-to-button-colors;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45878700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37897700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i validate \"AC\" color",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AC\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iValidateColor(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i should be able to see button with desire \"Red\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Red\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeButtonWithDesire(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckButtonColor"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:23:53.853Z",
+        "line": 16,
+        "name": "Validate AC and equal to button colors",
+        "description": "",
+        "id": "calculator-functionality-check;validate-ac-and-equal-to-button-colors;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45245500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25929100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "i validate \"Equals\" color",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Equals\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iValidateColor(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "i should be able to see button with desire \"Green\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Green\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeButtonWithDesire(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckButtonColor"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:23:53.929Z",
+        "line": 25,
+        "name": "Validate addition functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-addition-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41305800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10194833200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i enter \"5\" and press \"Addition\" and enter \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Addition\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25623400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i should be able to see result as \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckAdditionFunctionality"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:24:04.198Z",
+        "line": 26,
+        "name": "Validate addition functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-addition-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46876600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10193109300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "i enter \"3\" and press \"Addition\" and enter \"11\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Addition\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"11\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38887700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i should be able to see result as \"14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"14\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckAdditionFunctionality"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:24:14.483Z",
+        "line": 35,
+        "name": "Validate Subtraction functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-subtraction-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46216500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10194500700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "i enter \"9\" and press \"Subtraction\" and enter \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Subtraction\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44884300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "i should be able to see result as \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckSubtractionFunctionality"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:24:24.775Z",
+        "line": 36,
+        "name": "Validate Subtraction functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-subtraction-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127603300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10171875500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "i enter \"6\" and press \"Subtraction\" and enter \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Subtraction\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 46
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39839300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "i should be able to see result as \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckSubtractionFunctionality"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:24:35.119Z",
+        "line": 45,
+        "name": "Validate multiplication functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-multiplication-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 995100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45135500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10181399800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "i enter \"4\" and press \"Multiplication\" and enter \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Multiplication\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33758200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "i should be able to see result as \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckMultiplicationFunctionality"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:24:45.387Z",
+        "line": 46,
+        "name": "Validate multiplication functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-multiplication-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 42499100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10177501200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "i enter \"3\" and press \"Multiplication\" and enter \"8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Multiplication\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"8\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21625000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "i should be able to see result as \"24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"24\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckMultiplicationFunctionality"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:24:55.633Z",
+        "line": 55,
+        "name": "Validate division functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-division-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 66142000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10176106000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "i enter \"9\" and press \"Division\" and enter \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Division\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38778000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i should be able to see result as \"4.5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4.5\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckDivisionFunctionality"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-08T15:25:05.921Z",
+        "line": 56,
+        "name": "Validate division functionality",
+        "description": "",
+        "id": "calculator-functionality-check;validate-division-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CalculatorButtonColors.embedScreenshot(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41021400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "i am navigated to \"https://evilcalculator-5a169.web.app/\" calculator page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://evilcalculator-5a169.web.app/\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iAmNavigatedToCalculatorPage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10182298100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "i enter \"6\" and press \"Division\" and enter \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Division\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 43
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iEnterAndPressAndEnter(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25121700,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "i should be able to see result as \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.CalculatorButtonColors.iShouldBeAbleToSeeResult(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CheckDivisionFunctionality"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Functionality Check",
+    "description": "",
+    "id": "calculator-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CalculatorFunctionalityCheck.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,4 @@
+testrunner\TestRunner.class
+config\BrowserLaunch.class
+pages\CalculatorTestPage.class
+stepdefinitions\CalculatorButtonColors.class
